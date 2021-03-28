@@ -51,6 +51,7 @@ if(empty($_POST["name"]) ||  empty($_POST["section"])|| empty($_POST["CreditCard
 file_put_contents("suckers.txt","\n".$sName.";",FILE_APPEND );
 file_put_contents("suckers.txt",$sSection.";",FILE_APPEND );
 file_put_contents("suckers.txt",$sCredit.";",FILE_APPEND );
+file_put_contents("suckers.txt",$sType.";",FILE_APPEND );
 
 ?>
 
